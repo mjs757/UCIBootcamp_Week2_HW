@@ -1,0 +1,192 @@
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #828282;
+  background: #828282(3, 3, 3);
+}
+#page {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  padding-top: 6em;
+}
+h1, h2, h3, h4, h5, h6, a, figure {
+  color: #000;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 0;
+  z-index: 1;
+  background: #edebe8;
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 20px 0;
+  }
+}
+.logo {
+  margin-left: 40px;
+  margin-top: -10px;
+  width: 50%;
+  font-size: 30px;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat", 'Times New Roman', Times, serif, sans-serif;
+}
+.nav ul {
+  padding: 0;
+  margin: 3px 0 0 0;
+}
+.nav ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.nav ul li a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 30px 10px;
+  color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.contact-info ul li {
+  padding: 0 0 0;
+  margin: 0 0 0;
+  list-style: none;
+  position: relative;
+}
+.bg-section {
+  background: rgba(149, 83, 83, 0.229);
+}
+#author,
+#work,
+#contact {
+  padding: 7em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #author,
+  #work,
+  #contact {
+    padding: 3em 0;
+  }
+}
+.row .photo {
+  float: right;
+  position: relative;
+  height: 400px;
+  margin-left: 200px;
+  margin-top: -100px;
+}
+.work {
+  margin-bottom: 10px;
+}
+.work .work-alt {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 500px;
+  margin-bottom: 20px;
+}
+.work .work-alt .inner {
+  display: table;
+  height: 425px;
+  opacity: 0;
+  background: rgba(246, 245, 244);
+}
+.work .work-grid {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  float: left;
+  height: 300px;
+  width: 500px;
+  margin: 50px;
+}
+.work .work-grid .inner {
+  display: table;
+  height: 225px;
+  opacity: 0;
+  background: rgba(246, 245, 244, 0.9);
+
+}
+@media screen and (max-width: 768px) {
+  .work inner {
+    opacity: 1;
+    background: rgba(237, 235, 232, 0.7);
+  }
+}
+.work .inner{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 40px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 24px;
+}
+.work:hover .inner, .work:focus .inner {
+  opacity: 1;
+  color: #cabcab;
+}
+.intro h2 {
+  font-size: 49px;
+  line-height: 55px;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 768px) {
+  .intro h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+.highlight{
+  display: block;
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+}
+.title {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  #contact-info {
+    text-align: left;
+  }
+}
